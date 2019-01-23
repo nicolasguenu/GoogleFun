@@ -1,0 +1,182 @@
+header
+{
+	height: 40px
+}
+
+#conteneur
+{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	padding-top: 7px;
+	justify-content:flex-end;
+	align-items: right;
+}
+.mail .image
+{font-size: 15px
+}
+#gauche
+{
+	display: flex;
+	margin-right: 30px;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	width: 180px
+}
+
+#conteneur2
+{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	margin-top:9%;
+}
+
+form
+{
+margin-top: 30px;
+}
+#recherche
+{
+line-height: 3
+}
+
+#btn
+{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	width:300px;
+}
+
+.btnGoogle{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 15px;
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    background-color: rgb(230, 230, 230,);
+}
+
+.btnGoogle:hover {
+  color: black
+}
+
+.btnGoogle:active {
+    box-shadow: inset -2px -2px 3px rgb(72, 133, 237),
+                inset 2px 2px 3px rgb(72, 133, 237);
+}
+
+.btnChance{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 15px;
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    background-color: rgb(230, 230, 230,);
+}
+
+.btnChance:hover {
+  color: black
+}
+
+.btnChance:active {
+    box-shadow: inset -2px -2px 3px rgb(72, 133, 237),
+                inset 2px 2px 3px rgb(72, 133, 237);
+}
+
+p1
+{
+
+    font-size: 15px;
+    text-align: left;
+    color: grey;
+}
+
+#conteneur3
+{ 
+	border-bottom: 1px solid grey;
+	margin-top: 30px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items: left;
+	background-color: rgb(230,230,230)
+}
+
+#france
+{ 
+	margin-left: 30px
+
+}
+
+#conteneur4
+{ 
+	color: grey;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	background-color: rgb(230,230,230)
+}
+#footer2
+{ 
+	margin-left: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: left;
+	width: 400px
+}
+#footer3
+{ 
+	margin-right: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	width: 400px
+}
+*{
+
+margin:0;
+
+padding:0;
+
+}
+
+ 
+
+body, html{height:100%;}
+
+#main{
+
+max-width:1280px;
+
+min-height:100%;
+
+margin:0 auto;
+
+position:relative;
+
+}
+
+ 
+
+footer{
+
+position:absolute;
+
+bottom:0;
+
+width:100%;
+}
