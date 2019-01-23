@@ -3,6 +3,7 @@ header
 	height: 40px
 }
 
+
 #conteneur
 {
 	display: flex;
@@ -12,9 +13,7 @@ header
 	justify-content:flex-end;
 	align-items: right;
 }
-.mail .image
-{font-size: 15px
-}
+
 #gauche
 {
 	display: flex;
@@ -40,7 +39,7 @@ margin-top: 30px;
 }
 #recherche
 {
-line-height: 3
+line-height: 2.7
 }
 
 #btn
@@ -156,7 +155,9 @@ padding:0;
 
  
 
-body, html{height:100%;}
+body, html{height:100%;
+font-family: Arial;
+font-size:15px;}
 
 #main{
 
