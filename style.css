@@ -59,7 +59,7 @@ line-height: 2.7
     font-size: 15px;
     text-align: center;
     color: grey;
-    background-color: rgb(230, 230, 230,);
+    background-color: rgb(242, 242, 242,);
 }
 
 .btnGoogle:hover {
@@ -78,7 +78,7 @@ line-height: 2.7
     font-size: 15px;
     text-align: center;
     color: grey;
-    background-color: rgb(230, 230, 230,);
+    background-color: rgb(242, 242, 242,);
 }
 
 .btnChance:hover {
@@ -108,7 +108,7 @@ p1
 	flex-direction: column;
 	justify-content:flex-start;
 	align-items: left;
-	background-color: rgb(230,230,230)
+	background-color: rgb(242,242,242)
 }
 
 #france
@@ -126,7 +126,7 @@ p1
 	flex-direction: row;
 	justify-content:space-between;
 	align-items: center;
-	background-color: rgb(230,230,230)
+	background-color: rgb(242,242,242)
 }
 #footer2
 { 
